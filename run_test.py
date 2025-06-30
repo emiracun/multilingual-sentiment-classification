@@ -1,14 +1,7 @@
 # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-# ! Update only `your model_checkpoint`. This is a sample file that
-# !    will be run during evaluation of your submission. It
-# !    is shared with you so that you can test your implementation
-# !    locally. If you get any errors when running this file with
-# !    `python run_test.py --valid`, it is highly likely that you
-# !    will receive errors during evaluation.
-# !
-# ! Note that recieving errors will result in a zero score for this
-# !    assignment. Therefore, make sure that your implementation is
-# !    correct by testing this file locally.
+# This script was provided as part of a university project.
+# It is used by the course instructor to evaluate the model's F1 score.
+# You don’t need to run this to use or understand the project.
 # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 from transformers import pipeline, AutoTokenizer
 import pandas as pd

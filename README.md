@@ -1,1 +1,1 @@
-Multilingual binary sentiment classification
+Multilingual Binary Sentiment Classification

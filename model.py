@@ -1,14 +1,3 @@
-# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-# ! This is the file for the model class.
-# !     You need to implement the train and predict methods.
-# !     You can also add any other methods as required.
-# !     You can also add required parameters to the methods.
-# !     You can also use additional packages in this file.
-# !
-# ! Make sure that the final implementation is compatible with the
-# !     Model class. Be careful about the input and output types of
-# !     the methods.
-# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 from datasets import DatasetDict
 from typing import List, Dict, Tuple
 from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments, DataCollatorWithPadding, AutoTokenizer, EarlyStoppingCallback

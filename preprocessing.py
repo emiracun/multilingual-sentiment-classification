@@ -1,17 +1,3 @@
-# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-# ! This is the file for preprocessing objects and their utilities.
-# !     Do not change Preprocessor, LabelEncoder, PreprocessorObject 
-# !         classes.
-# !     You need to update Tokenizer and Embedder classes.
-# !     You can add any other classes or methods as needed.
-# !     You can also add required parameters to the methods.
-# !     You can also implement additional methods as required.
-# !     You can also use additional packages in this file.
-# !
-# ! Make sure that the final implementation is compatible with the
-# !     Preprocessor class and its methods. Be careful about the 
-# !     input and output types of the methods.
-# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 from datasets import DatasetDict
 from typing import List, Dict, Tuple
 from transformers import AutoTokenizer, AutoModel
@@ -35,10 +21,6 @@ class LabelEncoder:
         self.id2label = {v: k for k, v in labels.items()}
         self.label2id = {k: v for k, v in labels.items()}
         self.__dict__.update(kwargs)
-
-######################################################
-# ! Update Tokenizer and Embedder classes
-######################################################
 
 class Tokenizer:
     def __init__(self, model_name="distilbert-base-multilingual-cased", **kwargs):
